@@ -1,0 +1,34 @@
+/*variaveis globais prontas para chamada*/
+:root{
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+/*para todos - tiro todas margens e paddings*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*configurações de tags globais 'todo a, h1,2,3..*/
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{ 
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+
+
